@@ -1,0 +1,1 @@
+Este é um site criado com a finalidade de praticar as técnicas de HTML e CSS.

@@ -1,0 +1,65 @@
+section#banner div.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+  }
+  
+  .banner-content {
+  }
+  
+  .banner-content h1 {
+    color: #009688;
+    font-size: 47px;
+  }
+  
+  .banner-content p {
+    font-size: 20px;
+    color: #555555;
+  }
+  
+  .banner-content a {
+  }
+  
+  .banner-image {
+    padding: 40px;
+  }
+  
+  .banner-image img {
+    width: 100%;
+  }
+  #more-content {
+    background: #e5e5e5;
+  }
+  
+  #more-content .wrapper {
+    padding: 40px;
+  }
+  
+  #more-content .wrapper h2 {
+    color: #009688;
+    font-size: 32px;
+  }
+  
+  .list-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
+    column-gap: 13rem;
+  }
+  
+  .card {
+    max-width: 320px;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  
+  .card img {
+  }
+  
+  .card h3 {
+    color: #FF4081;
+    margin-top: 10px;
+    font-size: 27px;
+  }

@@ -1,0 +1,50 @@
+
+.title {
+    padding: 80px;
+}
+.title h1 {
+    color: #FF4081;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.title p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-left: 100px;
+ margin-right: 100px;
+ margin-bottom: 200px;
+ text-align: justify;
+ gap: 40px;
+}
+.card {
+display: flex;
+align-items: center;
+}
+.container-card {
+
+}
+.card img {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 380px;
+    max-height: 385px;
+}
+.card h3 {
+    color: #FF4081;
+    font-size: 35px;
+    font-weight: 700;
+}
+.button-green {
+}
+
+.hr-style {
+    border: 1px solid black;
+}

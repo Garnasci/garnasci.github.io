@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu";
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #2e948a;
+  padding: 20px;
+}
+
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header div img {
+}
+
+header div nav {
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.button-empty-green {
+    text-decoration: none;
+    text-align: center;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    border: 2px solid #FFF;
+    border-radius: 62px;
+    padding: 5px 30px;
+    transition: 300ms;
+}
+
+.button-empty-pink {
+  text-decoration: none;
+    text-align: center;
+    color: #FF4081;
+    font-size: 25px;
+    font-weight: 400;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    padding: 10px 25px;
+    transition: 300ms;
+}
+
+.button-pink {
+  text-decoration: none;
+    text-align: center;
+    background-color: #FF4081;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    padding: 10px 25px;
+    transition: 300ms;
+}
+.button-green {
+  text-decoration: none;
+    text-align: center;
+    background-color: #419488;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    border: 2px solid #FFF;
+    border-radius: 62px;
+    padding: 5px 30px;
+    transition: 300ms;
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+footer {
+  background-color: #2e948a;
+padding: 20px;
+}
+footer .wrapper {
+  display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+footer nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+footer nav a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 40px;
+  font-weight: bold;
+  text-transform: lowercase;
+}
